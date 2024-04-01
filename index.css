@@ -1,0 +1,31 @@
+table{
+    border-collapse: collapse;
+}
+th,td{
+    min-width: 80px;
+    border: 1px solid;
+}
+/* td{
+    outline: none;
+} */
+#focused-cell{
+    display: inline-block;
+}
+.task-bar{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+#bold-btn{
+    font-weight: bold;
+}
+#italics-btn{
+    font-style: italic;
+}
+#underline-btn{
+    text-decoration: underline;
+}
+#button-container{
+    display: flex;;
+    gap: 5px;
+}
